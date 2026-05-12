@@ -12,6 +12,10 @@ using System.Windows.Forms;
 
 namespace Interfaz_grafica_con_archivo_de_texto_plano
 {
+    /// <summary>
+    /// 120526
+    /// se creo una interfaz gráfica con un archivo de texto plano, donde se pueden agregar, modificar y eliminar registros de productos. Al salir de la aplicación, se guardan los datos en el archivo de texto plano. Al iniciar la aplicación, se cargan los datos desde el archivo de texto plano. Se utiliza un DataGridView para mostrar los datos y un BindingSource para enlazar los datos con el DataGridView.
+    /// </summary>
     public partial class Form1 : Form
     {
         List<Constructor> lista = new List<Constructor>();
